@@ -29,10 +29,6 @@ export const TripCardComponent = ({
     navigate(`/viatges/crono`);
   };
 
-  const updateTrip = () => {
-    navigate(`/viatges/crono`);
-  };
-
   return (
     <>
       <TripCardComponentStyles>
@@ -69,12 +65,6 @@ export const TripCardComponent = ({
                   className="delete-button"
                   text="Esborra"
                   actionOnClick={() => deleteTrip(id)}
-                />
-                <Button
-                  nature="update"
-                  className="delete-button"
-                  text="Esborra"
-                  actionOnClick={() => updateTrip()}
                 />
               </>
             )}

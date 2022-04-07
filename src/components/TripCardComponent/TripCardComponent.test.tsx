@@ -103,7 +103,7 @@ describe("Given a TripCardComponent component", () => {
   });
 
   describe("When there is a visibility = 'user'", () => {
-    test.only("Then it should display a button Esborra", () => {
+    test("Then it should display a button Esborra", () => {
       const trip = {
         origen: "Barcelona",
         desti: "Sort",
