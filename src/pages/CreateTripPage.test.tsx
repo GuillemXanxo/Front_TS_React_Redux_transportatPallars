@@ -1,23 +1,23 @@
 import { render, screen } from "@testing-library/react";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
-import App from "./App";
-import { store } from "./redux/store";
+import { store } from "../redux/store";
+import CreateTripPage from "./CreateTripPage";
 
-describe("Given an App component", () => {
+describe("Given an UserLoginPage page", () => {
   describe("When it's rendered", () => {
-    test("Then it should render a heading", () => {
+    test("Then it should render 3 textboxes", () => {
       render(
         <BrowserRouter>
           <Provider store={store}>
-            <App />
+            <CreateTripPage />
           </Provider>
         </BrowserRouter>
       );
 
-      const heading = screen.getByRole("heading");
+      const textbox = screen.getAllByRole("textbox");
 
-      expect(heading).toBeInTheDocument();
+      expect(textbox).toHaveLength(3);
     });
   });
 });

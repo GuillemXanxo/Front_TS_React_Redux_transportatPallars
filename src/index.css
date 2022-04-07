@@ -1,13 +1,75 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  height: 100vh;
+  margin-top: 0px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+p {
+  margin: 3px;
+}
+
+.categoria_negreta {
+  font-weight: bold;
+}
+
+.card-properties {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-properties_big {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.icon {
+  margin-left: 15px;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.viatges-publicats {
+  border-bottom: 1px solid black;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.delete-button {
+  border: solid 2px red;
+}
+
+.column-right {
+  display: flex;
+  flex-direction: column;
 }
