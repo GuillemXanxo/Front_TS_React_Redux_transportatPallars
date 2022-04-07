@@ -5,13 +5,13 @@ It is a simple CRUD where users can create and publish their own trips that will
 
 ## Stack
 
-Markup: -This front project has been written with the following technologies:
--Typescript using React types.
--React with a Redux data architecture flow.
--Github actions in order to check merges to the production repository.
--Styled Components
--Test: Jest and react-testing-library
--e2e test: Cypress only applied to the login case
+This front project has been written with the following technologies:
+Typescript using React types.
+React with a Redux data architecture flow.
+Github actions in order to check merges to the production repository.
+Styled Components
+Test: Jest and react-testing-library
+e2e test: Cypress only applied to the login case
 
 <p align="left"> 
 <img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" alt="typescript" width="40" height="40"/>
